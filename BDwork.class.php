@@ -1,8 +1,7 @@
 <?php
 /*
  *class works with mysql db
- * used to pull DatabaseHuman
- * objects lists for further processing
+ * used to pull and insert human models
  *
  *
  *

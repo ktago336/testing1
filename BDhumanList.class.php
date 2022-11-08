@@ -8,6 +8,9 @@ if (file_exists('BDwork.class.php')){
 else die ('no file with class finded.');
 /**
  * Class ListOfPeople
+ *
+ * generates lists of DatabaseHuman objects
+ * returns it for further processing
  */
 class ListOfPeople{
 
