@@ -55,7 +55,7 @@ class DatabaseHuman{
      * inserts a new person to the DB and fill attributes, if only ID given
      * gets a person by id from the DB
      */
-    public function __construct($id=null, $name=null, $surname=null, $dateOfBirth=null,
+    public function __construct(int $id=null, $name=null, $surname=null, $dateOfBirth=null,
                                 $sex=null, $cityOfBirth=null)
     {
         $this->mysqli = new mysqli($this->sqlSettings['host'],
